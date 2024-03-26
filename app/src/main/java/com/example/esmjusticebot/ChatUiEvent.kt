@@ -1,5 +1,7 @@
 package com.example.esmjusticebot
 
+import android.graphics.Bitmap
+
 
 sealed class ChatUiEvent {
     data class UpdatePrompt(val newPrompt: String) : ChatUiEvent()
