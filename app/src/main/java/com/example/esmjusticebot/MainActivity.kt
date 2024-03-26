@@ -129,8 +129,8 @@ class MainActivity : ComponentActivity() {
                 modifier = Modifier
                     .weight(1f)
                     .fillMaxWidth()
-                    .padding(horizontal = 8.dp),
-                reverseLayout = true
+                   // .padding(horizontal = 8.dp),
+               , reverseLayout = true
             ) {
                 chatState.chatList.reversed().forEachIndexed { index: Int, chat: Chat ->
                     item {
